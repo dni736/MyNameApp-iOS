@@ -15,7 +15,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         //Comment added
     }
-    @IBAction func onClick(){
+    @IBAction func onClick(){ //Alert window appears when Hello World button is clicked
+
         let alertController = UIAlertController(title: "Welcome to MyName App", message: "Demetre", preferredStyle:
             
             UIAlertController.Style.alert)
