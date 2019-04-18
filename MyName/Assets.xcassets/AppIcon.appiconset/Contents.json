@@ -1,15 +1,13 @@
 {
   "images" : [
     {
-      "size" : "20x20",
       "idiom" : "iphone",
-      "filename" : "apple_swift_logo-54c2084898e45.png",
+      "size" : "20x20",
       "scale" : "2x"
     },
     {
-      "size" : "20x20",
       "idiom" : "iphone",
-      "filename" : "apple_swift_logo-54c2084898e45-1.png",
+      "size" : "20x20",
       "scale" : "3x"
     },
     {

@@ -30,8 +30,7 @@ class ViewController: UIViewController {
             UIAlertAction.Style.default, handler: nil))
         
         self.present(alertController, animated: true, completion: nil)
-
-        //Demetre 2019
+    
     }
 
 }

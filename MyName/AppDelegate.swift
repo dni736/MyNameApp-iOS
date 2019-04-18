@@ -3,7 +3,7 @@
 //  MyName
 //
 //  Created by Dimkus on 14/04/2019.
-//  Copyright © 2019 Wandio. All rights reserved.
+//  Copyright © 2019 Wandio. All rights reserved Copying only with reference.
 //
 
 import UIKit
