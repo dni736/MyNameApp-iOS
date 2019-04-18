@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		52B4468E22638515007ED851 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B4468C22638515007ED851 /* LaunchScreen.storyboard */; };
 		52B4469922638515007ED851 /* MyNameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4469822638515007ED851 /* MyNameTests.swift */; };
 		52B446A422638515007ED851 /* MyNameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B446A322638515007ED851 /* MyNameUITests.swift */; };
+		52B446B22263CB13007ED851 /* Apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52B446B12263CB13007ED851 /* Apple.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		52B4469F22638515007ED851 /* MyNameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B446A322638515007ED851 /* MyNameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNameUITests.swift; sourceTree = "<group>"; };
 		52B446A522638515007ED851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B446B12263CB13007ED851 /* Apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Apple.jpg; path = "../Pics Dima/Apple.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				52B4469722638515007ED851 /* MyNameTests */,
 				52B446A222638515007ED851 /* MyNameUITests */,
 				52B4468122638514007ED851 /* Products */,
+				52B446B12263CB13007ED851 /* Apple.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -205,7 +208,7 @@
 				};
 			};
 			buildConfigurationList = 52B4467B22638514007ED851 /* Build configuration list for PBXProject "MyName" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -231,6 +234,7 @@
 			files = (
 				52B4468E22638515007ED851 /* LaunchScreen.storyboard in Resources */,
 				52B4468B22638515007ED851 /* Assets.xcassets in Resources */,
+				52B446B22263CB13007ED851 /* Apple.jpg in Resources */,
 				52B4468922638514007ED851 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B649V8D97U;
 				INFOPLIST_FILE = MyName/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,7 +447,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wandio.MyName;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -453,6 +458,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B649V8D97U;
 				INFOPLIST_FILE = MyName/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wandio.MyName;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

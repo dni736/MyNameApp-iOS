@@ -15,7 +15,23 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         //Comment added
     }
+    @IBAction func onClick(){
+        let alertController = UIAlertController(title: "Welcome to MyName App", message: "Demetre", preferredStyle:
+            
+            UIAlertController.Style.alert)
+        
+        alertController.addAction(UIAlertAction(title: "Yeap", style:
+            
+            UIAlertAction.Style.default, handler: nil))
+        
+        alertController.addAction(UIAlertAction(title: "Nope", style:
+            
+            UIAlertAction.Style.default, handler: nil))
+        
+        self.present(alertController, animated: true, completion: nil)
 
+
+    }
 
 }
 
